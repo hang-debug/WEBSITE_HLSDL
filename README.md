@@ -27,7 +27,7 @@ WEBSITE HỖ TRỢ DẠY HỌC LỊCH SỬ - ĐỊA LÝ ĐỊA PHƯƠNG
 
 1. Clone dự án:
    ```bash
-   git clone https://github.com/your-username/ten-du-an.git
+   git clone https://github.com/hang-debug/WEBSITE_HLSDL.git
    cd ten-du-an
    
 2. Cấu hình chuỗi kết nối trong appsettings.json:
