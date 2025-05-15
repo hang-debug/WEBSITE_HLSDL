@@ -29,12 +29,15 @@ WEBSITE HỖ TRỢ DẠY HỌC LỊCH SỬ - ĐỊA LÝ ĐỊA PHƯƠNG
    ```bash
    git clone https://github.com/your-username/ten-du-an.git
    cd ten-du-an
+   
 2. Cấu hình chuỗi kết nối trong appsettings.json:
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=TenCSDL;Trusted_Connection=True;"
 }
-   Khởi tạo cơ sở dữ liệu:
+
+3. Khởi tạo cơ sở dữ liệu:
 dotnet ef database update
+
 4.Chạy dự án:
 dotnet run
 Truy cập website tại http://localhost:5000
